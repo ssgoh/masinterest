@@ -1,0 +1,6 @@
+{
+  "name": "MAS SORA Tracker",
+  "description": "Institutional-grade Singapore Overnight Rate Average (SORA) benchmark tracker, compounded rates (1M, 3M, 6M), SORA Index, home loan calculator, and MAS interest rate analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
