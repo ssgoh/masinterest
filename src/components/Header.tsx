@@ -108,6 +108,7 @@ export const Header: React.FC<HeaderProps> = ({
             { id: 'compounding', label: 'MAS Index Compounding Calculator' },
             { id: 'historical', label: 'Historical Fixings' },
             { id: 'alerts', label: 'Rate Watch & Alerts' },
+            { id: 'gateway', label: 'MAS Live Gateway API' },
           ].map((tab) => (
             <button
               key={tab.id}

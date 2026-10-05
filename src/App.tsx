@@ -12,6 +12,7 @@ import { CustomCompoundingCalculator } from './components/CustomCompoundingCalcu
 import { HistoricalTable } from './components/HistoricalTable';
 import { RateAlerts } from './components/RateAlerts';
 import { EducationalModal } from './components/EducationalModal';
+import { LiveMasConnection } from './components/LiveMasConnection';
 import { SORA_HISTORICAL_DATA } from './data/soraData';
 import { ExternalLink, ShieldCheck } from 'lucide-react';
 
@@ -154,6 +155,8 @@ export default function App() {
         )}
 
         {activeTab === 'alerts' && <RateAlerts />}
+
+        {activeTab === 'gateway' && <LiveMasConnection />}
       </main>
 
       {/* Educational Guide Modal */}
